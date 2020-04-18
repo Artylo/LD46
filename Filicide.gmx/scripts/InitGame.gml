@@ -7,4 +7,5 @@ display_reset(0,false);
 
 //Font
 global.font = font_add("Bebas-Regular.ttf", 24,false,false,32,128);
+global.sfont = font_add("Bebas-Regular.ttf", 12,false,false,32,128);
 

@@ -25,12 +25,18 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\sp_radbad</sprite>
     <sprite>sprites\sp_goodman</sprite>
+    <sprite>sprites\sp_goodman_run</sprite>
+    <sprite>sprites\sp_goodman_cover</sprite>
     <sprite>sprites\sp_haruka</sprite>
+    <sprite>sprites\sp_radbad</sprite>
+    <sprite>sprites\sp_cover</sprite>
+    <sprite>sprites\sp_gun</sprite>
+    <sprite>sprites\sp_bullet</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_home</background>
+    <background>background\bg_office</background>
     <background>background\bg_vnoise1</background>
     <background>background\bg_vnoise2</background>
     <background>background\bg_vnoise3</background>
@@ -40,20 +46,27 @@
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\InitGame.gml</script>
-    <script>scripts\room_level1.gml</script>
-    <script>scripts\room_level1_director_background.gml</script>
-    <script>scripts\room_level1_director_create.gml</script>
-    <script>scripts\room_level1_director_step.gml</script>
-    <script>scripts\room_level2.gml</script>
-    <script>scripts\director_step_camera.gml</script>
-    <script>scripts\director_draw_gui.gml</script>
-    <script>scripts\radbad_create.gml</script>
-    <script>scripts\radbad_step.gml</script>
+    <scripts name="Title Screen">
+      <script>scripts\InitGame.gml</script>
+      <script>scripts\room_level1.gml</script>
+      <script>scripts\room_level1_director_create.gml</script>
+      <script>scripts\room_level1_director_background.gml</script>
+      <script>scripts\room_level1_director_step.gml</script>
+      <script>scripts\director_draw_gui.gml</script>
+    </scripts>
     <script>scripts\goodman_create.gml</script>
     <script>scripts\goodman_step.gml</script>
+    <script>scripts\goodman_cover.gml</script>
     <script>scripts\haruka_create.gml</script>
     <script>scripts\haruka_step.gml</script>
+    <script>scripts\radbad_create.gml</script>
+    <script>scripts\radbad_step.gml</script>
+    <script>scripts\room_level2.gml</script>
+    <script>scripts\director_step_controls.gml</script>
+    <script>scripts\director_step_camera.gml</script>
+    <script>scripts\cover_create.gml</script>
+    <script>scripts\gun_create.gml</script>
+    <script>scripts\gun_step.gml</script>
   </scripts>
   <fonts name="fonts"/>
   <objects name="objects">
@@ -62,6 +75,8 @@
     <object>objects\radbad</object>
     <object>objects\goodman</object>
     <object>objects\haruka</object>
+    <object>objects\cover</object>
+    <object>objects\gun</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\level1</room>
