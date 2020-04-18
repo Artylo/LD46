@@ -3,13 +3,69 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
+  <datafiles number="2" name="datafiles">
+    <datafile>
+      <name>Bebas-Regular.ttf</name>
+      <exists>-1</exists>
+      <size>17408</size>
+      <exportAction>2</exportAction>
+      <exportDir></exportDir>
+      <overwrite>0</overwrite>
+      <freeData>-1</freeData>
+      <removeEnd>0</removeEnd>
+      <store>0</store>
+      <ConfigOptions>
+        <Config name="Default">
+          <CopyToMask>9223372036854775807</CopyToMask>
+        </Config>
+      </ConfigOptions>
+      <filename>Bebas-Regular.ttf</filename>
+    </datafile>
+  </datafiles>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sprites name="sprites">
+    <sprite>sprites\sp_radbad</sprite>
+    <sprite>sprites\sp_goodman</sprite>
+    <sprite>sprites\sp_haruka</sprite>
+  </sprites>
+  <backgrounds name="background">
+    <background>background\bg_home</background>
+    <background>background\bg_vnoise1</background>
+    <background>background\bg_vnoise2</background>
+    <background>background\bg_vnoise3</background>
+    <background>background\bg_noise1</background>
+    <background>background\bg_noise2</background>
+    <background>background\bg_noise3</background>
+  </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\InitGame.gml</script>
+    <script>scripts\room_level1.gml</script>
+    <script>scripts\room_level1_director_background.gml</script>
+    <script>scripts\room_level1_director_create.gml</script>
+    <script>scripts\room_level1_director_step.gml</script>
+    <script>scripts\room_level2.gml</script>
+    <script>scripts\director_step_camera.gml</script>
+    <script>scripts\director_draw_gui.gml</script>
+    <script>scripts\radbad_create.gml</script>
+    <script>scripts\radbad_step.gml</script>
+    <script>scripts\goodman_create.gml</script>
+    <script>scripts\goodman_step.gml</script>
+    <script>scripts\haruka_create.gml</script>
+    <script>scripts\haruka_step.gml</script>
+  </scripts>
+  <fonts name="fonts"/>
+  <objects name="objects">
+    <object>objects\director</object>
+    <object>objects\director_level1</object>
+    <object>objects\radbad</object>
+    <object>objects\goodman</object>
+    <object>objects\haruka</object>
+  </objects>
   <rooms name="rooms">
-    <room>rooms\room0</room>
+    <room>rooms\level1</room>
+    <room>rooms\level2</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
