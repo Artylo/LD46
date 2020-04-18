@@ -7,4 +7,7 @@ if(window_get_height() != global.gameHeight*global.gameZoom
     display_reset(0,false);
 }
 
+view_xview = background_x[1];
+view_yview = -36;
+
 

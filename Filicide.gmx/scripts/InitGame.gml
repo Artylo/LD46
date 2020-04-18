@@ -9,3 +9,9 @@ display_reset(0,false);
 global.font = font_add("Bebas-Regular.ttf", 24,false,false,32,128);
 global.sfont = font_add("Bebas-Regular.ttf", 12,false,false,32,128);
 
+//RNG
+randomize();
+
+//Audio
+audio_sound_gain(snd_gun,0.5,0);
+
