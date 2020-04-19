@@ -2,6 +2,9 @@
 InitGame();
 instance_create(0,0,director_level1);
 
+audio_stop_all();
+audio_play_sound(snd_title,0,true);
+
 //Backgorounds
 var scale = 5;
 

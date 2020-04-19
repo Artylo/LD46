@@ -1,0 +1,20 @@
+text[0] = "Thank you Mr. Goodman"
+text[1] = "Your services are no longer needed";
+text[2] = "Your pay will be wired to you soon";
+text[3] = "You have done much for me";
+text[4] = "I won't forget it";
+text[5] = "...";
+text[6] = "Now, my dear...";
+text[7] = "Everything will be alright";
+text[8] = "We live in a very cruel world";
+text[9] = "there are people out there that want to hurt you";
+text[10] = "I won't let that happen";
+text[11] = "not to you"
+text[12] = "I'll make sure no one ever hurts you again"
+text[13] = "Mr. Goodman, you can leave now"
+text[14] = "Say goodbye to Mr. Goodman for me, honey"
+text[15] = "..."
+text[16] = "Goodbye Mr. Goodman! <3"
+text[17] = "Thanks for saving me!"
+text[18] = "Now close your eyes...";
+

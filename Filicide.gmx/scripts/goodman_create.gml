@@ -6,3 +6,4 @@ image_speed = 0.1;
 moveSpeed = 0.5;
 isMoving = false;
 isCovering = false;
+isDead = false;

@@ -16,13 +16,16 @@ else
     y = goodman.y+4;
 }
 
-if(keyboard_check_pressed(vk_space) || mouse_check_button_pressed(mb_left))
+if(!goodman.isDead)
 {
-    with(instance_create(bbox_right,y,player_bullet))
+    if(keyboard_check_pressed(vk_space) || mouse_check_button_pressed(mb_left))
     {
-        direction = other.image_angle;
-        speed = 5;
+        with(instance_create(bbox_right,y,player_bullet))
+        {
+            direction = other.image_angle;
+            speed = 5;
+        }
+        view_xview += random_range(-shake,shake);
+        view_yview += random_range(-shake,shake);
     }
-    view_xview += random_range(-shake,shake);
-    view_yview += random_range(-shake,shake);
 }

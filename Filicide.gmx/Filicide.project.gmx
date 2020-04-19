@@ -25,6 +25,11 @@
   <NewExtensions/>
   <sounds name="sound">
     <sound>sound\snd_gun</sound>
+    <sound>sound\snd_betrayal</sound>
+    <sound>sound\snd_level1</sound>
+    <sound>sound\snd_revenge</sound>
+    <sound>sound\snd_title</sound>
+    <sound>sound\snd_kill</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sp_goodman</sprite>
@@ -36,6 +41,8 @@
     <sprite>sprites\sp_gun</sprite>
     <sprite>sprites\sp_bullet</sprite>
     <sprite>sprites\sp_fenemy</sprite>
+    <sprite>sprites\sp_door</sprite>
+    <sprite>sprites\spr_corpse</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_home</background>
@@ -46,6 +53,9 @@
     <background>background\bg_noise1</background>
     <background>background\bg_noise2</background>
     <background>background\bg_noise3</background>
+    <background>background\bg_rain</background>
+    <background>background\bg_final</background>
+    <background>background\bg_nightoffice</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -60,6 +70,7 @@
     <script>scripts\goodman_create.gml</script>
     <script>scripts\goodman_step.gml</script>
     <script>scripts\goodman_cover.gml</script>
+    <script>scripts\goodman_gethit.gml</script>
     <script>scripts\haruka_create.gml</script>
     <script>scripts\haruka_step.gml</script>
     <script>scripts\radbad_create.gml</script>
@@ -76,8 +87,26 @@
     <script>scripts\enemy_step.gml</script>
     <script>scripts\enemy_gun.gml</script>
     <script>scripts\enemy_alarm.gml</script>
+    <script>scripts\narrative_create.gml</script>
+    <script>scripts\narrative_step.gml</script>
+    <script>scripts\narrative_draw.gml</script>
+    <script>scripts\room_level3.gml</script>
+    <script>scripts\room_level4.gml</script>
+    <script>scripts\text_intro.gml</script>
+    <script>scripts\text_kill.gml</script>
+    <script>scripts\text_gift.gml</script>
+    <script>scripts\text_monologue.gml</script>
+    <script>scripts\text_final.gml</script>
+    <script>scripts\corpse_create.gml</script>
+    <script>scripts\corpse_step.gml</script>
+    <script>scripts\enemy_die.gml</script>
+    <script>scripts\gameover.gml</script>
+    <script>scripts\room_level6.gml</script>
+    <script>scripts\room_level7.gml</script>
+    <script>scripts\room_level8.gml</script>
+    <script>scripts\room_level9.gml</script>
+    <script>scripts\room_credits.gml</script>
   </scripts>
-  <fonts name="fonts"/>
   <objects name="objects">
     <object>objects\director</object>
     <object>objects\director_level1</object>
@@ -89,10 +118,22 @@
     <object>objects\player_bullet</object>
     <object>objects\enemy</object>
     <object>objects\enemy_bullet</object>
+    <object>objects\narrative</object>
+    <object>objects\door</object>
+    <object>objects\corpse</object>
+    <object>objects\director_credits</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\level1</room>
+    <room>rooms\level3</room>
     <room>rooms\level2</room>
+    <room>rooms\level4</room>
+    <room>rooms\level5</room>
+    <room>rooms\level6</room>
+    <room>rooms\level7</room>
+    <room>rooms\level8</room>
+    <room>rooms\level9</room>
+    <room>rooms\credits</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

@@ -1,0 +1,26 @@
+text[0] = "WHO ARE YOU? WHAT DO YOU WANT?!"
+text[1] = "...";
+text[2] = "Oh...";
+text[3] = " My father must me looking for me.";
+text[4] = "Is he mad at me?";
+text[5] = "He sent all those people with guns.";
+text[6] = "I was so scared";
+text[7] = "I'm glad you came along";
+text[8] = "here, have this";
+text[9] = "...";
+text[10] = "*she hands you a drawing of her and you*";
+text[11] = "...";
+text[12] = "*you look very dashing with long hair*";
+text[13] = "I made this when I saw you coming in";
+text[14] = "It's for you";
+text[15] = "I hope you don't mind"
+text[16] = "I feel so lost"
+text[17] = "we should probably get going"
+text[18] = "I'll have to face him eventually"
+text[19] = "Please keep me safe, Mr.--"
+text[20] = "What even is your name?"
+text[21] = "..."
+text[22] = "Oh, I understand. Sorry.";
+text[23] = "Wait! I hear something!";
+text[24] = "There's more of them coming! Watch out!";
+

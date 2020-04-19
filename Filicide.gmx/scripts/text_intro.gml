@@ -1,0 +1,26 @@
+text[0] = "Hello, Goodman! [space]";
+text[1] = "I'm glad you could make it!";
+text[2] = "You've probably heard the news by now...";
+text[3] = "My sweet daughter has been kidnapped.";
+text[4] = "She has suffered a lot already.";
+text[5] = "So I want you to go and find her--";
+text[6] = "Keep her alive";
+text[7] = "at all cost";
+text[8] = "and bring her to me";
+text[9] = "I'll make sure she's safe from all of this";
+text[10] = "bring a gun too";
+text[11] = "she's being guarded";
+text[12] = "You can fire it with [Space] or [LMB]";
+text[13] = "Use the up or W key to hide behind cover";
+text[14] = "You won't be able to see as much behind cover";
+text[15] = "but you will be safe from harm";
+text[16] = "unless you go berzerk on them, that is";
+text[17] = "I can't have you ''going back'' on your word";
+text[18] = "So only use the right or D key to move forward";
+text[19] = "You can try to make an [Escape] at any time";
+text[20] = "But you'll have to start this all over...";
+text[21] = "frankly, that's all the support I can muster";
+text[22] = "the rest is up to you";
+text[23] = "I'm placing a lot of trust in you goodman";
+text[24] = "Do not disappoint me";
+

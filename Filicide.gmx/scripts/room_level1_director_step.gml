@@ -6,7 +6,7 @@ else
 {
     if(keyboard_check_pressed(vk_anykey))
     {
-        room_goto(level2);
+        room_goto_next();
     }
 }
 

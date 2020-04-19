@@ -3,6 +3,9 @@ InitGame();
 instance_create(0,0,director);
 instance_destroy(instance_find(director_level1,1));
 
+audio_stop_all();
+audio_play_sound(snd_level1,0,true);
+
 //Backgorounds
 var scale = 5;
 
